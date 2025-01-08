@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 // Récupérer les données de la table "mesures"
-$sql = 'SELECT * FROM mesures ORDER BY horodatage DESC';
+$sql = 'SELECT * FROM mesures ORDER BY id DESC';
 $result = $conn->query($sql);
 ?>
 
