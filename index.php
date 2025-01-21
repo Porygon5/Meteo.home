@@ -93,7 +93,7 @@ $weatherData = json_decode($response, true);
                     <th scope="col">Température (°C)</th>
                     <th scope="col">Humidité (%)</th>
                     <th scope="col">Pression (hPa)</th>
-                    <th scope="col">Horodatage</th>
+                    <th scope="col">Hordatage</th>
                 </tr>
             </thead>
             <tbody>
